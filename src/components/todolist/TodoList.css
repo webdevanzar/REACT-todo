@@ -1,0 +1,16 @@
+.container {
+  background-color: #152431;
+  padding: 50px 15px;
+  width: 450px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 6px 6px 5px #152431;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #8FA8C1;
+  margin-bottom: 36px;
+}

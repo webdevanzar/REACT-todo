@@ -1,0 +1,27 @@
+.add-container {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-container input {
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #8fa8c180;
+  outline-color: blue;
+  margin-right: 8px;
+  border-radius: 4px;
+  color: #8fa8c1;
+}
+
+.add-container button {
+  color: #8fa8c1;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: #0C5488;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,41 @@
+img {
+  /* width: 30px;
+  height: 30px;
+  object-fit: contain; */
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.display-main-container{
+  max-height: 300px;
+  overflow: auto;
+}
+
+.display-main-container::-webkit-scrollbar{
+  display: none;
+}
+
+.display-container {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.display-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8fa8c1;
+  padding: 5px;
+  word-break: break-all;
+}
+
+.display-container .button-container{
+    display: flex;
+}
+
+p{
+    color: #8FA8C14D;
+}
+

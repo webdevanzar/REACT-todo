@@ -1,0 +1,38 @@
+.edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.edit-container input {
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #8fa8c180;
+  outline-color: blue;
+  color: #8fa8c1;
+  border-radius: 4px;
+  margin-right: 9px;
+}
+
+.edit-container .buttons button:first-child {
+  padding: 13px;
+  color: #8fa8c1;
+  background-color: blue;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+
+.edit-container .buttons button:last-child {
+  padding: 13px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0c5488;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
