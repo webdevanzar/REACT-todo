@@ -27,13 +27,13 @@ export const Display = ({ dataItems, deleteItems, editItem }) => {
             </p>
             <div className="button-container" key={data.id}>
               <img
-                src={"/src/images/edit.png"}
+                src={"/images/edit.png"}
                 alt=""
                 onClick={() => editItem(data.id)}
               />
 
               <img
-                src={"/src/images/delete.png"}
+                src={"/images/delete.png"}
                 alt=""
                 onClick={() => deleteItems(data.id)}
               />
