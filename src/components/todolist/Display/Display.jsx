@@ -10,7 +10,7 @@ export const Display = ({ dataItems, deleteItems, editItem }) => {
       [id]: !prev[id],
     }));
   };
-  console.log(completedItems);
+  
   
   return (
     <div className="display-main-container">
