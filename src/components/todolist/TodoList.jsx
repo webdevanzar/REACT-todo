@@ -62,7 +62,7 @@ export const TodoList = () => {
     const finalEdited = dataItems.filter((data) => data.id !== id);
 
     if (!updatedData) {
-      return alert("sfsf");
+      return alert("cannot add empty tasks");
     }
 
     setDataItems([...finalEdited, { id: Date.now(), text: updatedData }]);
