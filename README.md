@@ -1,8 +1,32 @@
-# React + Vite
+# 📝 React To-Do List App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **beautifully crafted** 🖌️ to-do list application built with **React** ⚛️. Manage your daily tasks with ease — **add**, **edit**, **delete**, and keep them saved 🗂️ thanks to **localStorage**. Enjoy a clean, responsive design styled with **custom CSS** 🎨.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![todo](https://github.com/user-attachments/assets/c30ed451-3eaf-4ebd-bbfc-7bd0a44d0fd1)
+
+---
+
+## 🌟 Features  
+
+✨ **Add Tasks**: Create new tasks effortlessly.  
+✏️ **Edit Tasks**: Update your existing tasks with a click.  
+🗑️ **Delete Tasks**: Remove tasks you no longer need.  
+💾 **Persistent Storage**: Your tasks stay saved in **localStorage** even after refreshing the page.  
+📱 **Responsive Design**: Works beautifully on desktop and mobile devices.  
+🎨 **Custom Styling**: A visually pleasing interface built with **handcrafted CSS**.
+
+---
+
+## 🚀 Demo  
+
+Check out the live demo here: [Live Demo 🌐](https://react-todo-two-sigma.vercel.app/)
+
+---
+
+## 🛠️ Installation  
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/yourusername/react-todo-list.git
+   cd react-todo-list
