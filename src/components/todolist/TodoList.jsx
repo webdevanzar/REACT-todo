@@ -61,6 +61,10 @@ export const TodoList = () => {
   const editData = (updatedData, id) => {
     const finalEdited = dataItems.filter((data) => data.id !== id);
 
+    if (!updatedData) {
+      return alert("sfsf");
+    }
+
     setDataItems([...finalEdited, { id: Date.now(), text: updatedData }]);
     setEditingData("");
   };
